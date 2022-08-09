@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Combine
+import IntentsUI
 
 @main
 struct SwiftLintAnalyzeApp: App {

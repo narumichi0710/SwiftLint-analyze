@@ -135,9 +135,9 @@
 			buildConfigurationList = 52528F0128A1448F00C7472E /* Build configuration list for PBXNativeTarget "SwiftLintAnalyze" */;
 			buildPhases = (
 				52528ED928A1448D00C7472E /* Sources */,
+				52C3138728A1E70300574CCC /* Run Script */,
 				52528EDA28A1448D00C7472E /* Frameworks */,
 				52528EDB28A1448D00C7472E /* Resources */,
-				52C3138728A1E70300574CCC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,7 +254,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52C3138728A1E70300574CCC /* ShellScript */ = {
+		52C3138728A1E70300574CCC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,13 +263,14 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# bash RunSwiftLint.sh\n";
+			shellScript = "bash RunSwiftLint.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
