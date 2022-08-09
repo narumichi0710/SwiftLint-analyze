@@ -137,6 +137,7 @@
 				52528ED928A1448D00C7472E /* Sources */,
 				52528EDA28A1448D00C7472E /* Frameworks */,
 				52528EDB28A1448D00C7472E /* Resources */,
+				52C3138728A1E70300574CCC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -251,6 +252,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C3138728A1E70300574CCC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash RunSwiftLint.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52528ED928A1448D00C7472E /* Sources */ = {

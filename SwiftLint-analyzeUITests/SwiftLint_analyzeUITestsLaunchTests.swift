@@ -7,7 +7,7 @@
 
 import XCTest
 
-class SwiftLint_analyzeUITestsLaunchTests: XCTestCase {
+class SwiftLintAnalyzeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
