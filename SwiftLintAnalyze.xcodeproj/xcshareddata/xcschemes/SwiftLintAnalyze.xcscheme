@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52528EDC28A1448D00C7472E"
-               BuildableName = "SwiftLint-analyze.app"
+               BuildableName = "SwiftLintAnalyze.app"
                BlueprintName = "SwiftLintAnalyze"
                ReferencedContainer = "container:SwiftLintAnalyze.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52528EEC28A1448F00C7472E"
-               BuildableName = "SwiftLint-analyzeTests.xctest"
+               BuildableName = "SwiftLintAnalyzeTests.xctest"
                BlueprintName = "SwiftLintAnalyzeTests"
                ReferencedContainer = "container:SwiftLintAnalyze.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52528EF628A1448F00C7472E"
-               BuildableName = "SwiftLint-analyzeUITests.xctest"
+               BuildableName = "SwiftLintAnalyzeUITests.xctest"
                BlueprintName = "SwiftLintAnalyzeUITests"
                ReferencedContainer = "container:SwiftLintAnalyze.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52528EDC28A1448D00C7472E"
-            BuildableName = "SwiftLint-analyze.app"
+            BuildableName = "SwiftLintAnalyze.app"
             BlueprintName = "SwiftLintAnalyze"
             ReferencedContainer = "container:SwiftLintAnalyze.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52528EDC28A1448D00C7472E"
-            BuildableName = "SwiftLint-analyze.app"
+            BuildableName = "SwiftLintAnalyze.app"
             BlueprintName = "SwiftLintAnalyze"
             ReferencedContainer = "container:SwiftLintAnalyze.xcodeproj">
          </BuildableReference>
