@@ -10,12 +10,12 @@ else
 fi
 
 # Analyzeの実行スクリプト
-project="SwiftLint-analyze.xcodeproj"
-scheme="SwiftLint-analyze"
+project="SwiftLintAnalyze.xcodeproj"
+scheme="SwiftLintAnalyze"
 
 xcodebuild clean -project ${project} -scheme ${scheme}
 
-xcodebuild -project ${project} -scheme ${scheme} -sdk iphonesimulator -configuration Debug -destination "platform=iOS Simulator,name=iPhone 13" > xcodebuild.log
+xcodebuild -project ${project} -scheme ${scheme} -sdk iphonesimulator -configuration Debug -destination "platform=iOS Simulator,name=iPhone 13,OS=15" > xcodebuild.log
 
-swiftlint analyze --autocorrect --compiler-log-path xcodebuild.log --fix
+swiftlint analyze --autocorrect --compiler-log-path xcodebuild.log
 
